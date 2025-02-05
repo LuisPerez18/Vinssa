@@ -79,6 +79,8 @@
           font-size: 16px;
           line-height: 1.5;
           font-family: "Montserrat", sans-serif; }
+          .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li::marker {
+            color: #E58000; }
     .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
       max-width: 400px; }
 
@@ -104,7 +106,7 @@
       max-width: 300px;
       gap: 25px; }
       .vissa .hero .content-hero h2 {
-        font-size: 22px;
+        font-size: 25px;
         line-height: 1.5; }
         .vissa .hero .content-hero h2:after {
           bottom: -8px; }
@@ -112,7 +114,13 @@
         font-size: 14px;
         line-height: 1.5; }
       .vissa .hero .content-hero .btn-solicitar-info {
-        font-size: 14px; } }
+        font-size: 14px; }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora h2 {
+    font-size: 25px; }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
+    font-size: 15px; }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
+    max-width: 300px; } }
 @media (max-width: 767px) {
   .vissa .hero {
     padding: 50px 0; }
@@ -128,7 +136,16 @@
         font-size: 14px;
         line-height: 1.5; }
       .vissa .hero .content-hero .btn-solicitar-info {
-        font-size: 14px; } }
+        font-size: 14px; }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas {
+    flex-direction: column; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora h2 {
+      font-size: 22px;
+      text-align: center; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
+      font-size: 15px; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
+      max-width: 320px; } }
 @media (max-width: 480px) {
   .vissa .hero {
     background-position: 0%;
@@ -149,6 +166,15 @@
         text-align: center; }
       .vissa .hero .content-hero .btn-solicitar-info {
         font-size: 12px;
-        margin: 0 auto; } }
+        margin: 0 auto; }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas {
+    flex-direction: column; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora h2 {
+      font-size: 22px;
+      text-align: center; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
+      font-size: 14px; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
+      max-width: 300px; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
