@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+
+.content
+    max-width: 1440px
+    width: 90%
+    padding: 0
+
+$montserrat: 'Montserrat', sans-serif
+$color-white: #FFFFFF
+$color-orange: #E58000
+
+
+.vissa 
+    .hero 
+        
+        background-image: url('/img/Rectangle 98.png')
+        background-position: center
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        padding: 92px 0px
+        display: flex
+        align-items: center
+        .content-hero
+            max-width: 585px
+            height: 184px
+            margin: 0px 60px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .btn-solicitar-info, h2, p
+                color: $color-white
+                font-family: $montserrat
+            h2
+                font-size: 28px
+                position: relative
+                &:after
+                    content: ''
+                    position: absolute
+                    left: 0
+                    bottom: -10px
+                    width: 30px
+                    padding: 1.5px 0
+                    background-color: $color-orange
+            p
+                font-size: 16px
+            .btn-solicitar-info
+                padding: 7px 9px
+                border: 1px solid $color-white
+                font-size: 12px
+                align-self: flex-start

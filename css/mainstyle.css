@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.content {
+    max-width: 1440px;
+    width: 90%;
+    padding: 0;
+    margin: 0 auto; }
+
+.vissa .hero {
+    background-image: url("/img/Rectangle 98.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center; }
+    .vissa .hero .content-hero {
+        max-width: 585px;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+    .vissa .hero .content-hero .btn-solicitar-info, .vissa .hero .content-hero h2, .vissa .hero .content-hero p {
+        color: #FFFFFF;
+        font-family: "Montserrat", sans-serif; }
+    .vissa .hero .content-hero h2 {
+        font-size: 28px;
+        position: relative;
+        line-height: 1.5; }
+    .vissa .hero .content-hero h2:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 30px;
+        padding: 1.5px 0;
+        background-color: #E58000; }
+    .vissa .hero .content-hero p {
+        font-size: 16px;
+        line-height: 1.5; }
+    .vissa .hero .content-hero .btn-solicitar-info {
+        padding: 7px 10px;
+        border: 1px solid #FFFFFF;
+        font-size: 12px;
+        max-width: fit-content;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.3s; }
+    .vissa .hero .content-hero .btn-solicitar-info:hover {
+        background-color: #FFFFFF;
+        color: #000000; }
+.vissa .caracteristicas-etiquetadora {
+
+    padding: 60px 0px; }
+.vissa .caracteristicas-etiquetadora .content-caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 770px; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora h2 {
+        font-size: 28px;
+        font-family: "Montserrat", sans-serif; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul {
+        padding-left: 20px; }
+        .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: "Montserrat", sans-serif; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
+        max-width: 400px; }
+@media (min-width: 979px) and (max-width: 1200px) {
+    .vissa .hero {
+    padding: 50px 0; }
+    .vissa .hero .content-hero {
+        max-width: 420px; }
+    .vissa .hero .content-hero h2 {
+        font-size: 28px;
+        line-height: 1.5; }
+        .vissa .hero .content-hero h2:after {
+            bottom: -8px; }
+    .vissa .hero .content-hero p {
+        font-size: 14px;
+        line-height: 1.5em; }
+    .vissa .hero .content-hero .btn-solicitar-info {
+        font-size: 14px; } }
+@media (min-width: 768px) and (max-width: 979px) {
+    .vissa .hero {
+    padding: 50px 0; }
+    .vissa .hero .content-hero {
+        max-width: 300px;
+        gap: 25px; }
+        .vissa .hero .content-hero h2 {
+        font-size: 22px;
+        line-height: 1.5; }
+        .vissa .hero .content-hero h2:after {
+            bottom: -8px; }
+        .vissa .hero .content-hero p {
+        font-size: 14px;
+        line-height: 1.5; }
+        .vissa .hero .content-hero .btn-solicitar-info {
+        font-size: 14px; } }
+@media (max-width: 767px) {
+    .vissa .hero {
+        padding: 50px 0; }
+    .vissa .hero .content-hero {
+        max-width: 300px;
+        gap: 25px; }
+    .vissa .hero .content-hero h2 {
+        font-size: 22px;
+        line-height: 1.5; }
+        .vissa .hero .content-hero h2:after {
+            bottom: -8px; }
+    .vissa .hero .content-hero p {
+        font-size: 14px;
+        line-height: 1.5; }
+    .vissa .hero .content-hero .btn-solicitar-info {
+        font-size: 14px; } }
+@media (max-width: 480px) {
+    .vissa .hero {
+        background-position: 0%;
+        padding: 50px 0; }
+    .vissa .hero .content-hero {
+        max-width: 100%;
+        gap: 20px; }
+    .vissa .hero .content-hero h2 {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 22px; }
+        .vissa .hero .content-hero h2:after {
+            bottom: -5px;
+            left: calc( 50% - 15px ); }
+    .vissa .hero .content-hero p {
+        font-size: 15px;
+        line-height: 1.5;
+        text-align: center; }
+    .vissa .hero .content-hero .btn-solicitar-info {
+        font-size: 12px;
+        margin: 0 auto; } }
+
+/*# sourceMappingURL=mainstyle.css.map */

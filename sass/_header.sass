@@ -1,0 +1,52 @@
+@mixin laptop()
+    .hero
+        .content-hero
+            width: 300px
+            height: 120px
+            margin: 0px 60px
+            h2
+                font-size: 12px
+                &:after
+                    bottom: -8px
+                    width: 15px
+            p
+                font-size: 10px
+                line-height: 1.5em
+            .btn-solicitar-info
+                font-size: 8px
+
+@mixin tablet()
+    .hero
+        padding: 50px 0
+        .content-hero
+            width: 180px
+            height: 100px
+            margin: 0px 10px
+            h2
+                font-size: 10px
+                &:after
+                    bottom: -5px
+                    width: 15px
+            p
+                font-size: 8px
+                line-height: 1.5em
+            .btn-solicitar-info
+                font-size: 8px
+
+@mixin movil()
+    .hero
+        padding: 50px 0
+        .content-hero
+            width: 140px
+            height: 90px
+            margin: 0px 10px
+            h2
+                font-size: 8px
+                &:after
+                    bottom: -5px
+                    width: 10px
+            p
+                font-size: 6px
+                line-height: 1.5em
+            .btn-solicitar-info
+                font-size: 6px

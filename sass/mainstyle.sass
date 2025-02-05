@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+
+.content
+    max-width: 1440px
+    width: 90%
+    padding: 0
+    margin: 0 auto
+
+$montserrat: 'Montserrat', sans-serif
+$color-white: #FFFFFF
+$color-black: #000000
+$color-orange: #E58000
+
+
+.vissa 
+    .hero 
+        background-image: url('/img/Rectangle 98.png')
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 60px 0px
+        display: flex
+        align-items: center
+        .content-hero
+            max-width: 585px
+            gap: 40px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .btn-solicitar-info, h2, p
+                color: $color-white
+                font-family: $montserrat
+            h2
+                font-size: 28px
+                position: relative
+                line-height: 1.5
+                &:after
+                    content: ''
+                    position: absolute
+                    left: 0
+                    bottom: -10px
+                    width: 30px
+                    padding: 1.5px 0
+                    background-color: $color-orange
+            p
+                font-size: 16px
+                line-height: 1.5
+            .btn-solicitar-info
+                padding: 7px 10px
+                border: 1px solid $color-white
+                font-size: 12px
+                max-width: fit-content
+                width: 100%
+                text-align: center
+                cursor: pointer
+                font-weight: 600
+                transition: 0.3s
+                &:hover
+                    background-color: $color-white
+                    color: $color-black
+    .caracteristicas-etiquetadora
+        padding: 60px 0px
+        .content-caracteristicas
+            display: flex
+            justify-content:  space-between
+            align-items: center
+            gap: 30px
+            .content-caracteristicas-etiquetadora
+                display: flex
+                flex-direction: column
+                gap: 30px
+                max-width: 770px
+                h2
+                    font-size: 28px
+                    font-family: $montserrat
+                ul
+                    padding-left: 20px
+                    li
+                        margin-bottom: 10px
+                        font-size: 16px
+                        line-height: 1.5
+                        font-family: $montserrat
+            .img-etiquetadora-weber
+                max-width: 400px
+    @media (min-width: 979px) and (max-width: 1200px)
+        .hero
+            padding: 50px 0
+            .content-hero
+                max-width: 420px
+                h2
+                    font-size: 28px
+                    line-height: 1.5
+                    &:after
+                        bottom: -8px
+                p
+                    font-size: 14px
+                    line-height: 1.5em
+                .btn-solicitar-info
+                    font-size: 14px
+    @media (min-width: 768px) and (max-width: 979px)
+        .hero
+            padding: 50px 0
+            .content-hero
+                max-width: 300px
+                gap: 25px
+                h2
+                    font-size: 22px
+                    line-height: 1.5
+                    &:after
+                        bottom: -8px
+                p
+                    font-size: 14px
+                    line-height: 1.5
+                .btn-solicitar-info
+                    font-size: 14px
+    @media (max-width: 767px)
+        .hero
+            padding: 50px 0
+            .content-hero
+                max-width: 300px
+                gap: 25px
+                h2
+                    font-size: 22px
+                    line-height: 1.5
+                    &:after
+                        bottom: -8px
+                p
+                    font-size: 14px
+                    line-height: 1.5
+                .btn-solicitar-info
+                    font-size: 14px
+    @media (max-width: 480px)
+        .hero
+            background-position: 0%
+            padding: 50px 0
+            .content-hero
+                max-width: 100%
+                gap: 20px
+                h2
+                    text-align: center
+                    padding-bottom: 15px
+                    font-size: 22px
+                    &:after
+                        bottom: -5px
+                        left: calc( 50% - 15px )
+                p
+                    font-size: 15px
+                    line-height: 1.5
+                    text-align: center
+                .btn-solicitar-info
+                    font-size: 12px
+                    margin: 0 auto
+
+
+
+
+
+
+
+
+
+
+
