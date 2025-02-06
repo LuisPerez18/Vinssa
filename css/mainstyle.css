@@ -68,7 +68,8 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
-      max-width: 770px; }
+      max-width: 770px;
+      width: 100%; }
       .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora h2 {
         font-size: 28px;
         font-family: "Montserrat", sans-serif; }
@@ -81,8 +82,110 @@
           font-family: "Montserrat", sans-serif; }
           .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li::marker {
             color: #E58000; }
-    .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
-      max-width: 400px; }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .figura-img-etiquetadora-weber {
+      max-width: 400px;
+      width: 100%; }
+      .vissa .caracteristicas-etiquetadora .content-caracteristicas .figura-img-etiquetadora-weber .img-etiquetadora-weber {
+        display: block;
+        max-width: 100%; }
+.vissa .conoce-mas-etiquetadora {
+  background-color: #446FAB;
+  padding: 60px 0px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center; }
+    .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 550px; }
+      .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 28px;
+        line-height: 1.5;
+        color: #FFFFFF; }
+      .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora .btn-catalogo-etiquetadora {
+        background-color: #E58000;
+        max-width: fit-content;
+        color: #FFFFFF;
+        border-radius: 25px;
+        padding: 10px 22px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        cursor: pointer; }
+    .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro {
+      max-width: 500px;
+      width: 100%; }
+      .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro .img-libro-etiquetadora-weber {
+        display: block;
+        max-width: 100%;
+        margin: auto; }
+.vissa .funciones-etiquetadora {
+  background-color: #F2F2F2;
+  padding: 60px 0px; }
+  .vissa .funciones-etiquetadora h2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; }
+  .vissa .funciones-etiquetadora p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin: 80px 0 40px 0; }
+  .vissa .funciones-etiquetadora .content-funciones-etiquetadora {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px; }
+    .vissa .funciones-etiquetadora .content-funciones-etiquetadora ul {
+      padding-left: 18px;
+      max-width: 50%;
+      width: 100%; }
+      .vissa .funciones-etiquetadora .content-funciones-etiquetadora ul li {
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        margin-bottom: 10px; }
+        .vissa .funciones-etiquetadora .content-funciones-etiquetadora ul li::marker {
+          color: #E58000; }
+  .vissa .funciones-etiquetadora .figura-img-funciones-etiquetadora {
+    width: 100%;
+    max-width: 700px;
+    margin: auto; }
+    .vissa .funciones-etiquetadora .figura-img-funciones-etiquetadora .img-funciones-etiquetadora {
+      display: block;
+      max-width: 100%;
+      margin: auto; }
+.vissa .mas-informacion-etiquetadora {
+  padding: 60px 0px; }
+  .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora {
+    display: flex;
+    column-gap: 50px; }
+    .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos {
+      max-width: 50%;
+      width: 100%;
+      position: relative; }
+      .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2 {
+        font-size: 28px;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5; }
+        .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2:after {
+          content: " ";
+          width: 30px;
+          padding: 1.5px 0px;
+          background-color: #E58000;
+          position: absolute;
+          left: 0%;
+          top: 50%; }
+      .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos p {
+        padding-top: 50px;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5; }
+    .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-formulario {
+      max-width: 50%;
+      width: 100%; }
 
 @media (min-width: 979px) and (max-width: 1200px) {
   .vissa .hero {
@@ -98,7 +201,12 @@
         font-size: 14px;
         line-height: 1.5em; }
       .vissa .hero .content-hero .btn-solicitar-info {
-        font-size: 14px; } }
+        font-size: 14px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro {
+    max-width: 200px; }
+  .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2:after {
+    left: 0%;
+    top: 52%; } }
 @media (min-width: 768px) and (max-width: 979px) {
   .vissa .hero {
     padding: 50px 0; }
@@ -119,8 +227,16 @@
     font-size: 25px; }
   .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
     font-size: 15px; }
-  .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
-    max-width: 300px; } }
+  .vissa .caracteristicas-etiquetadora .content-caracteristicas .figura-img-etiquetadora-weber {
+    max-width: 300px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora h2 {
+    font-size: 25px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora .btn-catalogo-etiquetadora {
+    font-size: 14px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro {
+    max-width: 200px; }
+  .vissa .funciones-etiquetadora p {
+    margin: 30px 0 40px 0; } }
 @media (max-width: 767px) {
   .vissa .hero {
     padding: 50px 0; }
@@ -144,8 +260,31 @@
       text-align: center; }
     .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
       font-size: 15px; }
-    .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
-      max-width: 320px; } }
+    .vissa .caracteristicas-etiquetadora .content-caracteristicas .figura-img-etiquetadora-weber {
+      max-width: 250px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora h2 {
+    font-size: 22px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora .btn-catalogo-etiquetadora {
+    font-size: 14px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro {
+    max-width: 200px; }
+  .vissa .funciones-etiquetadora h2 {
+    font-size: 22px; }
+  .vissa .funciones-etiquetadora p {
+    font-size: 14px;
+    margin: 30px 0 40px 0; }
+  .vissa .funciones-etiquetadora .content-funciones-etiquetadora li {
+    font-size: 14px; }
+  .vissa .funciones-etiquetadora .figura-img-funciones-etiquetadora {
+    max-width: 350px; }
+  .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2 {
+    font-size: 22px; }
+    .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2:after {
+      left: 0%;
+      top: 47%; }
+  .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos p {
+    padding-top: 40px;
+    font-size: 14px; } }
 @media (max-width: 480px) {
   .vissa .hero {
     background-position: 0%;
@@ -175,6 +314,53 @@
     .vissa .caracteristicas-etiquetadora .content-caracteristicas .content-caracteristicas-etiquetadora ul li {
       font-size: 14px; }
     .vissa .caracteristicas-etiquetadora .content-caracteristicas .img-etiquetadora-weber {
-      max-width: 300px; } }
+      max-width: 300px; }
+  .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora {
+    display: flex;
+    flex-direction: column; }
+    .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora h2 {
+      text-align: center;
+      font-size: 22px; }
+    .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .content-conoce-y-catalogo-etiquetadora .btn-catalogo-etiquetadora {
+      margin: 0 auto;
+      font-size: 13px;
+      text-align: center; }
+    .vissa .conoce-mas-etiquetadora .content-conoce-mas-etiquetadora .figura-img-libro {
+      max-width: 200px; }
+  .vissa .funciones-etiquetadora h2 {
+    font-size: 22px; }
+  .vissa .funciones-etiquetadora p {
+    font-size: 14px;
+    margin: 40px 0 40px 0; }
+  .vissa .funciones-etiquetadora .content-funciones-etiquetadora {
+    flex-direction: column;
+    gap: 0px; }
+    .vissa .funciones-etiquetadora .content-funciones-etiquetadora ul {
+      max-width: 100%;
+      padding-bottom: 0px; }
+      .vissa .funciones-etiquetadora .content-funciones-etiquetadora ul li {
+        font-size: 14px; }
+  .vissa .funciones-etiquetadora .figura-img-funciones-etiquetadora {
+    max-width: 320px; }
+  .vissa .mas-informacion-etiquetadora {
+    padding: 50px 0px; }
+    .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora {
+      flex-direction: column; }
+      .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos {
+        max-width: 100%; }
+        .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2 {
+          text-align: center;
+          font-size: 22px;
+          padding-bottom: 20px; }
+          .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos h2:after {
+            left: 0%;
+            top: 47%;
+            left: calc( 50% - 15px ); }
+        .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-quienes-somos p {
+          text-align: center;
+          padding-top: 30px;
+          font-size: 14px; }
+      .vissa .mas-informacion-etiquetadora .content-mas-informacion-etiquetadora .content-mas-informacion-etiquetadora-formulario {
+        max-width: 100%; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
